@@ -35,7 +35,9 @@ function handleTaskEntry() {
   console.log("Task Entries:");
   // Display all entered tasks
   tasks.forEach((task, index) => {
-    console.log(`Task ${index + 1} → Title: ${task.title}, Description: ${task.description}, Status: ${task.status}`);
+    console.log(
+      `Task ${index + 1} → Title: ${task.title}, Description: ${task.description}, Status: ${task.status}`
+    );
   });
 
   // Filter tasks that are completed (status is "done")
