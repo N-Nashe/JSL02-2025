@@ -21,3 +21,26 @@ function getTask(taskNumber) {
   return task;
 }
 
+function handleTaskEntry() {
+  const task1 = getTask(1);
+  const task2 = getTask(2);
+  const tasks = [task1, task2];
+
+  console.log("Task Entries:");
+  tasks.forEach((task, index) => {
+    console.log(`Task ${index + 1} → Title: ${task.title}, Description: ${task.description}, Status: ${task.status}`);
+  });
+
+  const completedTasks = tasks.filter(task => task.status === "done");
+
+  if (completedTasks.length > 0) {
+    console.log("Completed Tasks:");
+    completedTasks.forEach(task => {
+      console.log(`Title: ${task.title}, status: ${task.status}`);
+    });
+  } else {
+    console.log("No tasks completed, let's get to work!");
+  }
+}
+
+window.onload = handleTaskEntry;
