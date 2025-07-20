@@ -1,15 +1,15 @@
 # JSL02 Project Brief: Task Input and Status Validation System
 
-## Important Prerequisite
-
-1. Before starting this challenge, ensure that you have **corrected your JSL01 project (HTML and CSS)** using the solution provided. This will help maintain consistency and ensure you build on a solid foundation.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
-
 ## Overview
 
 This project involves implementing a JavaScript-based task entry system where users can input two tasks with complete details, ensuring data consistency and validation. The system will guide users through entering valid task titles, descriptions, and statuses, enforcing correct formatting while maintaining code clarity and maintainability.
 
 ## Key Objectives
+
+- To ensure users have a valid, interactive and usable task entry system
+- To ensure that the system works as described in the overview
+- To ensure no console errors
+- To ensure my code across all files makes sense and is detailed with comments to better guide users
 
 ### Logic & User Interaction
 
@@ -50,3 +50,10 @@ A functional task entry system that ensures accurate data collection, validation
 - When there are no completed tasks:
 
   ![invalid status](./explainer-images/no%20completed%20tasks%20log.png)
+
+
+**How to view the output**
+
+- Right-click in the website and click inspect
+- Afterwards go to console next to lighthouse where you can view your input and what you have entered
+- Once satisfied click on the "x" in the right corner of the Dev tools and close the console to go back to the desktop view
