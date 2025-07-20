@@ -19,7 +19,7 @@ function getTask(taskNumber) {
       task.status = normalizedStatus;
       break; // Exit loop if valid
     } else {
-      alert("❗ Invalid status. Please enter 'todo', 'doing', or 'done'.");
+      alert("❗ Invalid status. Please enter 'todo', 'doing', or 'done'!.");
     }
   }
 
